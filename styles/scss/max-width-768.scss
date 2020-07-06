@@ -1,0 +1,52 @@
+@media(max-width: 1023px) {
+  .container, .input-width-message {
+    width: $container-width - 28 * $padding;
+  }
+
+  .heading {
+    font-size: $font-size-h1 / 1.5;
+  }  
+
+  .menu-section {
+    width: 100px;
+  }
+
+  .position-line-675px-right, .position-line-699px-right  {
+    left: 290px;
+  }
+
+  .position-line-675px-left, .position-line-699px-left  {
+    right: 290px;
+  }
+
+  .flex-direction-column-md {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-wrap-md {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .order-0-md {
+    order: 0;
+  }
+
+  .order-1-md {
+    order: 1;
+  }
+
+  .position-message {
+    top: 275px;
+  }
+
+  .mt-10-md {
+    margin-top: 10px;
+  }
+
+  .mx-auto-md {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

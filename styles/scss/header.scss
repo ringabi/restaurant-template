@@ -1,0 +1,148 @@
+.ellipse {
+  background: no-repeat url(../images/Ellipse.png);
+  color: rgba(0, 0, 255, 0.2);
+  height: 61.5px;
+  width: 61.5px;
+}
+
+.white-circle {
+  background: no-repeat url(../images/white-circle.png);
+  height: 40px;
+  width: 40px;
+}
+
+.helm {
+  width: 150px;
+  height: 150px;
+}
+
+.line-vertical-699px {
+  width: 695px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+}
+
+.position-line-699px-left {
+  position: relative;
+  bottom: 340px;
+  right: 424px;
+}
+
+.position-line-699px-right {
+  position: relative;
+  bottom: 337px;
+  left: 424px;
+}
+
+.line-vertical-454px {
+  width: 454px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+}
+
+.line-vertical-82px {
+  width: 82px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+}
+
+.position-line-454px {
+  position: relative;
+  bottom: 372px;
+}
+
+.position-line-82px {
+  position: relative;
+  bottom: 40px;
+}
+
+.header-bg {
+  background: no-repeat center/100% url(../images/header-bg.png);
+  background-size: 100% 100%;
+}
+
+.menu {
+  width: 133px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Banny';
+  font-size: $font-size-h1;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.opening-hours {
+  width: 300px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 12px;
+  transform: rotate(-90deg);
+  color: $primary-color;
+  text-align: center;
+}
+
+.position-opening-hours {
+  position: relative;
+  top: 314px;
+  left: -120px;
+}
+
+.line {
+  width: 60px;
+  height: 5.11px;
+  background: $secondary-color;
+  border-radius: 50px;
+}
+
+.line-horizontal {
+  width: 530px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.btn-header {
+  width: 200px;
+  height: 60px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  border: none;
+}
+
+.border-btn {
+  border: 1px solid rgba(255, 255, 255, 0.5); 
+}
+
+.bg-btn {
+  background: $secondary-color;
+}
+
+.bg-btn-0 {
+  background: rgba(255, 255, 255, 0);
+}
+
+.position-social-group {
+  position: relative;
+  top: 232px;
+}

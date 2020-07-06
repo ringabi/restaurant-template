@@ -1,0 +1,40 @@
+@media(max-width: 1350px) {
+  .container {
+    width: $container-width - 2 * $padding;
+  }
+  
+  .input-width-message {
+    width: $container-width - 2 * $padding;
+  }
+
+  #about-us {
+    .position-frame {
+      margin-left: 400px - 2 * $padding;
+    }
+  }
+
+  #booking {
+    .position-frame {
+      margin-left: 412px - 2 * $padding;
+    }
+  }
+
+
+  .position-frame-left {
+    margin-left: -65px + $padding;
+  }
+
+  .position-frame-right {
+    margin-left: 390px - $padding;
+  }
+
+
+  .maps {
+    height: 417.67px;
+  }
+
+  .galerie-photo-1, .galerie-photo-2, .galerie-photo-3, .galerie-photo-4 {
+    width: 320px;
+    height: 320px;
+  }
+}

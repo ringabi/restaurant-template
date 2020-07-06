@@ -1,0 +1,342 @@
+#delicious-menu {
+  td {
+    width: 363px;
+    height: 66px;
+    font-family: 'Banny' sans-serif;
+    font-size: 18px;
+  }
+
+  td div {
+    font-size: 12px;
+  }
+}
+
+.container {
+  width: $container-width;
+  margin: 0 auto;
+}
+
+.text-block-100px {
+  width: 100%;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+}
+
+.maps {
+  background: no-repeat center/100% url(../images/mapsdirectionspart.png);
+  width: 100%;
+  height: 475px;
+}
+
+.text-about {
+  width: 600px;
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.frame {
+  width: 250px;
+  height: 250px;
+  border: 20px solid $secondary-color;
+  box-sizing: border-box;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frame-booking {
+  width: 226px;
+  height: 226px;
+  border: 20px solid $secondary-color;
+  box-sizing: border-box;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.frame-specialties {
+  width: 250px;
+  height: 262.72px;
+  border: 20px solid $secondary-color;
+  box-sizing: border-box;
+  box-shadow: 0 0 100px #000;
+  border-radius: 5px;
+}
+
+#about-us .position-frame {
+  margin-top: 162.5px;
+  margin-left: 400px;
+}
+
+#our-team .position-frame {
+  margin-top: 162.5px;
+  margin-left: -63px;
+}
+
+#booking .position-frame {
+  margin-top: 162.5px;
+  margin-left: 412px;
+}
+
+#specialties .position-frame {
+  margin-top: 156.5px;
+  margin-left: -75px;
+}
+
+.position-frame-left {
+  margin-top: 156.5px;
+  margin-left: -65px;
+}
+
+.position-frame-right {
+  margin-top: 156.5px;
+  margin-left: 390px;
+}
+
+.section-img {
+  width: 575px;
+  height: 575px;
+  border-radius: 5px;
+}
+
+.about-img {
+  background: no-repeat center/100% url(../images/about-img.png);
+}
+
+.specialty-bg {
+  background: no-repeat center/100% url(../images/specialty-bg.png);
+  background-size: 100% 100%;
+}
+
+.specialist {
+  background: no-repeat center/100% url(../images/specialist.png);
+}
+
+.our-team {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.vintage-clock-img {
+  background: no-repeat center/100% url(../images/vintage-clock.png);
+  width: 575px;
+  height: 575px;
+}
+
+.input-block {
+  border-radius: 5px;
+  background: $bg-input-btn;
+  font-size: 14px;
+  line-height: 19px;
+  text-indent: 15px;
+  color: rgba(51, 51, 51, 0.5);
+  border: none;
+}
+
+.input-width-booking {
+  width: 277px;
+  height: 60px;
+}
+
+.btn {
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 5px;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.btn-width-booking {
+  width: 564px;
+  height: 60px;
+}
+
+.specialties-bg {
+  background: no-repeat center/100% url(../images/specialties-bg.png);
+  background-size: 100% 100%;
+}
+
+.chocolate-pancakes-img {
+  background: no-repeat center/100% url(../images/chocolate-pancakes.png);
+}
+
+.line-vertical-50 {
+  width: 50px;
+  height: 0px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  transform: rotate(90deg);
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+.line-vertical-50-mod {
+  width: 50px;
+  height: 0px;
+  border: 1px solid rgba(51, 51, 51, 0.2);
+  transform: rotate(90deg);
+  margin-right: -25px;
+  margin-left: -25px;
+}
+
+.menu-section {
+  width: 120px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.private-events-bg {
+  background: no-repeat center/100% url(../images/private-events-bg.png);
+  background-size: 100% 100%;
+}
+
+.wedding-rings-img {
+  background: no-repeat center/100% url(../images/wedding-rings.png);
+  box-shadow: 0px 0px 50px #000000;
+}
+
+.cling-wine-glasses-img {
+   background: no-repeat center/100% url(../images/cling-wine-glasses.png);
+   box-shadow: 0px 0px 50px #000000;
+}
+
+.position-text-left {
+  margin-top: -159px;
+  margin-left: 247px;
+}
+
+.position-text-right {
+  margin-top: -160px;
+  margin-left: -147px;
+}
+
+.line-vertical-675px {
+  width: 675px;
+  height: 1px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transform: rotate(-90deg);
+}
+
+.position-line-675px-left {
+  position: relative;
+  top: 331px;
+  right: 424px;
+}
+
+.position-line-675px-center {
+  position: relative;
+  top: 334px;
+}
+
+.position-line-675px-right {
+  position: relative;
+  top: 337px;
+  left: 424px;
+}
+
+.ellipse-2 {
+  width: 10px;
+  height: 10px;
+  background: url(../images/Ellipse-2.png) rgba(255, 255, 255, 0.5);
+}
+
+.position-ellipse-2 {
+  position: relative;
+  bottom: 45px;
+}
+
+.width-565 {
+  width: 565px;
+}
+
+.text-vertical {
+  width: 475px;
+  height: 80px;
+  font-family: 'Banny';
+  font-size: 24px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-indent: 20px;
+  text-transform: uppercase;
+  color: $primary-color;
+  background-color: #000;
+  border-radius: 5px 5px 0 0;
+}
+
+.transform-rotate--90 {
+  transform: rotate(-90deg);
+}
+
+.transform-rotate-90 {
+   transform: rotate(90deg);
+}
+
+.galerie-photo-1 {
+  background: no-repeat center/100% url(../images/photo-galerie-1.png);
+  height: 360px;
+  width: 360px;
+}
+
+.galerie-photo-2 {
+  background: no-repeat center/100% url(../images/photo-galerie-2.png);
+  width: 360px;
+  height: 360px;
+}
+
+.galerie-photo-3 {
+  background: no-repeat center/100% url(../images/photo-galerie-3.png);
+  width: 360px;
+  height: 360px;
+}
+
+.galerie-photo-4 {
+  background: no-repeat center/100% url(../images/photo-galerie-4.png);
+  width: 360px;
+  height: 360px;
+}
+
+.input-width-contact {
+  width: 420px;
+  height: 60px;
+}
+
+.input-width-message {
+  width: $container-width;
+  height: 120px;
+}
+
+.btn-width-contact {
+  width: 640px;
+  height: 60px;
+}
+
+.bg-contacts {
+  background: no-repeat left/95% url(../images/contacts.png);
+}
+
+.position-message {
+  position: relative;
+  top: 130px;
+  left: 15px;
+}

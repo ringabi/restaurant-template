@@ -1,0 +1,93 @@
+@media(max-width: 424px) {
+  .container, .input-width-message, .text-about, .btn-width-booking, .width-565 {
+    width: $container-width - 47.25 * $padding;
+  }
+
+  .helm {
+    width: 100px;
+    height: 100px;
+  }
+
+  .heading {
+    font-size: $font-size-h1 / 2.6;
+  }
+
+  .position-line-675px-right, .position-line-699px-right  {
+    left: 150px;
+  }
+
+  .position-line-675px-left, .position-line-699px-left  {
+    right: 150px;
+  }
+
+  .section-img {
+    width: 280px;
+    height: 280px;
+  }
+
+  #about-us .position-frame {
+    margin-left: 145px;
+  }
+
+  #our-team .position-frame {
+    margin-left: -28px;
+  }
+
+  #booking .position-frame {
+    margin-left: 145px;
+  }
+
+  #specialties .position-frame {
+    margin-left: -28px;
+  }
+
+  .menu-section {
+    width: 80px;
+  }
+
+  .frame-booking {
+    box-shadow: 0 0 0 0;
+  }
+
+  #delicious-menu {
+    td {
+      font-size: 14px;
+    }
+
+    td div {
+      font-size: 11px;
+    }
+  }
+
+  .wedding-rings-img, .cling-wine-glasses-img {
+    box-shadow: 0 0 0 0;
+  }
+
+  .position-frame-right {
+    margin-left: 119px;
+  }
+
+  .text-vertical {
+    width: 230.5px;
+    height: 50px;
+  }
+
+  .position-text-left {
+    margin-top: -106.5px;
+    margin-left: 116px;
+  }
+
+  .position-text-right {
+    margin-top: -106.5px;
+  }
+
+  .galerie-photo-1, .galerie-photo-2, .galerie-photo-3, .galerie-photo-4 {
+    width: 375px;
+    height: 375px;
+  }
+
+  .maps {
+    background: no-repeat  top 0 left -440px url(../images/mapsdirectionspart.png);
+    width: 100%;
+  }
+}
